@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+export PREFIX=""
+if [ -d 'venv' ] ; then
+    export PREFIX="venv/bin/"
+fi
+
+${PREFIX}isort integrated_data_processing tests
+${PREFIX}black integrated_data_processing tests

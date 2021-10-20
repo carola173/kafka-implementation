@@ -1,0 +1,6 @@
+#!/bin/sh
+set -x
+
+export SIMPLE_SETTINGS=integrated_data_processing.settings
+
+PYTHONPATH=integrated_data_processing faust -A app worker --web-port=$WORKER_PORT

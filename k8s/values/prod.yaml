@@ -1,0 +1,11 @@
+replicas: 2
+
+hostname: 'integrated_data_processing.com'
+env: prod
+
+worker:
+  debug: false
+  storeUri: "rocksdb://"
+
+bootstrapServers:
+  - kafka:9093

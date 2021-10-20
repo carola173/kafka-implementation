@@ -1,0 +1,14 @@
+faust
+simple-settings
+jupyter
+pandas
+numpy
+matplotlib
+seaborn
+lightgbm
+scikit-learn
+uvicorn
+fastapi
+confluent-kafka
+requests
+confluent-kafka
